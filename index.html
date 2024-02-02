@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/images/logo.jpg" />
+    <meta name="author" content="www.domain.com" />
+    <meta name="keywords" content="keywords-here" />
+    <meta name="language" content="en" />
+
+    <title>product_name_here | product_tagline_here</title>
+    <meta name="description" content="product_description_here" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:title" content="product_name_here | product_tagline_here" />
+    <meta property="og:description" content="product_description_here" />
+    <meta property="og:url" content="https://www.domain.com" />
+    <meta property="og:site_name" content="www.domain.com" />
+    <meta property="og:image" content="https://www.domain.com/images/og-domain.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:secure" content="https://www.domain.com/images/og-domain.png" />
+    <meta property="og:image:secure_url" content="https://www.domain.com/images/og-domain.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="www.domain.com" />
+    <meta name="twitter:title" content="product_name_here | product_tagline_here" />
+    <meta name="twitter:description" content="product_description_here" />
+    <meta name="twitter:image" content="https://www.domain.com/images/og-domain.png" />
+    <meta name="twitter:creator" content="@juancolamendy" />
+    
+    <meta itemprop="name" content="product_name_here | product_tagline_here" />
+    <meta itemprop="description" content="product_description_here" />
+    <meta itemprop="url" content="https://www.domain.com" />
+    
+    <meta name="robots" content="noarchive, noydir, noodp" />
+
+    <script type="application/ld+json">
+            {
+            "@context":"https://schema.org",
+            "@graph":[
+
+                {
+                    "@type":"Organization",
+                    "@id":"https://domain.com/#organization",
+                    "url":"https://domain.com/",
+                    "name":"domain",
+                    "sameAs":[
+                        "https://twitter.com/juancolamendy"
+                    ],
+                    "logo": {
+                        "@type":"ImageObject",
+                        "@id":"https://domain.com/#logo",
+                        "url":"https://www.domain.com/images/logo.jpg",
+                        "caption":"domain"
+                    },
+                    "image": {
+                        "@type":"ImageObject",
+                        "@id": "https://domain.com/#image",
+                        "url": "https://www.domain.com/images/og-domain.png",
+                        "caption": "domain"
+                    },
+                    "founder": {
+                        "@id":"https://domain.com/people/juan-c-olamendy/#person"
+                    }
+                },
+                {
+                    "@type":"Person",
+                    "@id":"https://domain.com/people/juan-c-olamendy/#person",
+                    "name":"Juan C Olamendy",
+                    "description":"Founder product_name_here - I talk about bootstrapping a SaaS product",
+                    "image":{
+                        "@type":"ImageObject",
+                        "@id":"https://domain.com/people/juan-c-olamendy/images/#image",
+                        "url":"https://pbs.twimg.com/profile_images/1475528274046509057/c35ZXQus_400x400.jpg",
+                        "caption":"Juan C Olamendy"
+                    },                            
+                    "sameAs": [
+                        "https://www.linkedin.com/in/juancolamendy/",
+                        "https://twitter.com/juancolamendy"
+                    ]
+                },
+                {
+                    "@type":"WebSite",
+                    "@id":"https://domain.com/#website",
+                    "url":"https://domain.com/",
+                    "name":"domain",
+                    "publisher":{
+                        "@id":"https://domain.com/#organization"
+                    },
+                    "potentialAction":{
+                        "@type":"SearchAction",
+                        "target":"https://domain.com/?s={search_term_string}",
+                        "query-input":"required name=search_term_string"
+                    }
+                }
+            ]}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/index.jsx"></script>
+  </body>
+</html>
